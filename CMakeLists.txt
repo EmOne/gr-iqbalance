@@ -68,7 +68,7 @@ endif()
 ########################################################################
 # Find FFTW3
 ########################################################################
-findpackage(FFTW3f)
+find_package(FFTW3f)
 
 if(NOT FFTW3F_FOUND)
     message(FATAL_ERROR "FFTW3 required to compile iqbalance")
